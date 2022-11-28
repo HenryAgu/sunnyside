@@ -1,20 +1,57 @@
-# Henry's First Zuri Task
+# Frontend Mentor - Sunnyside agency landing page solution
 
-A metabnb website that provides you access to luxury and affordable houses in the metaverse.
+This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-# Screenshots
-![meta1](https://user-images.githubusercontent.com/74037448/201494011-2691e179-e0ee-46d3-9a56-07fb9920758f.PNG)
-![meta2](https://user-images.githubusercontent.com/74037448/201494019-d651267e-139f-4bbd-91c3-4dfc979697e0.PNG)
-![meta3](https://user-images.githubusercontent.com/74037448/201494023-94decadf-5510-46ff-acb6-750508c8956d.PNG)
-![meta4](https://user-images.githubusercontent.com/74037448/201494026-22f86270-659c-4d2f-886a-306fc15b49fb.PNG)
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+### Screenshot
+
+![](./screenshot.jpg)
+![sunnyside](https://user-images.githubusercontent.com/74037448/204390213-fec77031-e4c1-4e1b-9b43-b922d58e24bc.PNG)
+![sunnyside1](https://user-images.githubusercontent.com/74037448/204390226-395fdf90-6c51-4e1d-8c8e-8f166a252413.PNG)
+![sunnyside2](https://user-images.githubusercontent.com/74037448/204390232-10068826-000a-4658-b779-a4100b8d6cc3.PNG)
 
 
 
-# Built with
-- reactjs
-- pure css
-- flexbox
-- react-router-dom
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+
+
 
 ## Author
 
@@ -22,3 +59,4 @@ A metabnb website that provides you access to luxury and affordable houses in th
 - Twitter - [@\_henryi](https://www.twitter.com/_henryi)
 - LinkedIn - [Henry Agu](https://www.linkedin.com/in/agu-henry-871a981b0)
 - Instagram - [@i_am_henry69](https://instagram.com/i_am_henry69?igshid=YmMyMTA2M2Y=)
+
