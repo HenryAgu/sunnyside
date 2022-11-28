@@ -1,0 +1,94 @@
+
+.adventure-header h1 {
+  text-align: center;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.adventure-box {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.adventure-card {
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  padding: 10px;
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+}
+
+.adventure-card img {
+  height: 265px;
+  width: 100%;
+}
+
+.adventure-card-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.adventure-card-text p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  color: #434343;
+}
+
+.adventure-card-text .duration{
+    font-weight: 700;
+    text-align: right;
+}
+
+.rating img{
+    width: 100px;
+    height: 15px;
+}
+
+/* Responsiveness starts here */
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  .adventure-box {
+    width: 95%;
+  }
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+  .adventure-header h1 {
+    font-size: 32px;
+  }
+  .adventure-box {
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    width: 80%;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .adventure-header h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .adventure-box {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  
+}

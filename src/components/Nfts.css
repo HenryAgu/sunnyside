@@ -1,0 +1,88 @@
+.nft {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  padding: 70px 0;
+}
+
+.inner-nft {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nft-text {
+  width: 50%;
+}
+
+.nft-text h1 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: white;
+}
+
+.nft-text p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: white;
+  margin-top: 20px;
+}
+
+.nft-text button {
+  margin-top: 20px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 30%;
+  color: #a02279;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.nft-text button:hover{
+    width: 35%;
+}
+
+.nft-image {
+  width: 50%;
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+  .nft-text button {
+    width: 35%;
+  }
+  .nft-text button:hover{
+    width: 40%;
+  }
+  .nft-text h1 {
+    font-size: 43px;
+  }
+  .nft-text p {
+    font-size: 16px;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .inner-nft {
+    flex-direction: column-reverse;
+  }
+  .nft-text,.nft-image {
+    width: 100%;
+  }
+  .nft-text{
+    text-align: center;
+  }
+}

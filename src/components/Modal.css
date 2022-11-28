@@ -1,0 +1,115 @@
+.overlay {
+  background: rgba(64, 64, 64, 0.3);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.connect-wallet {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 40%;
+  border-bottom: 1px solid #cfd8dc;
+}
+
+.top-connect {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #cfd8dc;
+}
+
+.top-connect h4 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.top-connect img {
+  cursor: pointer;
+}
+
+.choose-wallet {
+  padding: 20px;
+}
+
+.choose-wallet p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* Meatamask */
+
+.meta-mask {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  border: 1px solid #cfd8dc;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.meta-mask img{
+    cursor: pointer;
+}
+.author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.author h3 {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+
+
+/* Responsiveness starts here */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  .connect-wallet {
+    width: 50%;
+  }
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+  .connect-wallet {
+    width: 70%;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+  .connect-wallet {
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+
+}

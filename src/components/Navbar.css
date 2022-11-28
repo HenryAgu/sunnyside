@@ -1,0 +1,62 @@
+.navbar {
+  height: 12vh;
+  width: 100%;
+  font-family: "Red Rose";
+  position: fixed;
+}
+
+.navbar-end {
+  display: flex;
+  justify-content: center;
+  margin-right: 200px;
+}
+
+#navMenu button {
+  outline: none;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border: 1px solid #a02279;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  color: white;
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+#navMenu button:hover {
+  background: white;
+  color: #a02279;
+}
+
+/* Responsiveness starts here */
+/* Large Screens */
+@media (max-width: 1024px) {
+  .navbar-end {
+    display: flex;
+    justify-content: center;
+    margin-right: 110px;
+  }
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+  .navbar {
+    height: 3vh;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .navbar-end {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  #navMenu button{
+    margin-left: 20px;
+  }
+}

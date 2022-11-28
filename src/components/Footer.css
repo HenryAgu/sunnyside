@@ -1,0 +1,120 @@
+footer {
+  background: #1d1d1e;
+}
+
+.inner-footer {
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: left;
+  gap: 200px;
+}
+
+.inner-footer h4 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.socials {
+  padding-top: 70px;
+}
+
+.socials a {
+  margin-right: 50px;
+}
+
+.footer-list ul {
+  margin-top: 20px;
+}
+
+.footer-list li {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  color: #f1f3f9;
+  cursor: pointer;
+}
+
+.copyright {
+  padding: 30px;
+  padding-left: 70px;
+}
+
+.copyright p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #f7f7f7;
+}
+
+/* Responsiveness starts here */
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+  .inner-footer {
+    gap: 100px;
+  }
+  .copyright {
+    padding-left: 50px;
+  }
+}
+
+/* medium screens */
+@media (max-width: 991px) {
+  .inner-footer {
+    gap: 60px;
+  }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+
+  .inner-footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    gap: 50px;
+  }
+  .footer-list li{
+    text-align: center;
+    justify-content: center;
+  }
+  .logo-socials {
+    text-align: center;
+  }
+  .socials {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .socials a {
+    margin-right: 0;
+  }
+  .copyright {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  
+}

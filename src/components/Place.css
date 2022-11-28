@@ -1,0 +1,129 @@
+.place {
+  padding-top: 150px;
+}
+
+.place-header {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 50px;
+}
+
+.place-header p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #434343;
+  cursor: pointer;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #b4b4b4;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nft-box{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.nft-card{
+    background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+    padding: 10px;
+    border: 1px solid #d7d7d7;
+    border-radius: 15px;
+}
+
+.nft-card img{
+    height: 265px;
+    width: 100%;
+}
+
+.nft-card-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nft-card-text p{
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+    color: #434343;
+}
+
+.nft-card-text .duration{
+    font-weight: 700;
+    text-align: right;
+}
+
+.rating img{
+    width: 100px;
+    height: 15px;
+}
+
+/* Responsiveness starts here */
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .place-header {
+        gap: 30px;
+      }
+      .place-header p {
+        font-size: 18px;
+      }
+    .nft-box {
+      width: 95%;
+    }
+  }
+
+  /* medium screens */
+@media (max-width: 991px) {
+    .place {
+        padding-top: 100px;
+      }
+    .place-header {
+        gap: 15px;
+        justify-content: center;
+      }
+      .place-header p {
+        font-size: 16px;
+      }
+    .nft-box {
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+        width: 80%;
+      }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 480px) {
+    .place-header{
+        flex-wrap: wrap;
+    }
+    .nft-box {
+      grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 320px) {
+
+}
